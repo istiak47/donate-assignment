@@ -1,0 +1,156 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+section{
+    margin-bottom: 150px;
+}
+#banner{
+    text-align: center;
+    color: white;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 818px;
+    padding-top: 150px;
+}
+#banner h1{
+    font-size: 80px;
+}
+#banner p{
+    font-size: 30px;
+}
+.link-buttton{
+    text-decoration: none;
+    background-image: linear-gradient(rgba(230, 7, 25, 0.726),tomato);
+    padding: 10px 20px;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+  }
+.thin-paragraphs{
+    text-align: center;
+}
+.thin-paragraphs h1{
+    font-size: 60px;
+}
+.thin-paragraphs p{
+    font-size: 30px;
+    color: gray;
+    font-weight: lighter
+}
+#donation-amount{
+    color: gray;
+    font-size: 45px;
+    text-align: center;
+    word-spacing: 50px;
+}
+span{
+    border: 3px solid rgba(255, 0, 0, 0.596);
+    border-radius: 5px;
+    padding: 40px;
+    background-color: rgba(255, 182, 193, 0.315);
+}
+#specific-amount{
+    font-size: 30px;
+    text-align: center;
+}
+hr{
+    background-color: lightgray;
+    border: none;
+    height: 2px;
+    width: 50%;
+    text-align: center;
+}
+input{
+    border: hidden;
+    text-align: center;
+    font-size: 25px;
+}
+::-webkit-input-placeholder {
+    color: lightgray;
+}
+h2{
+    font-size: 40px;
+}
+.flexible-container{
+    display: flex;
+}
+.one-third-width{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    border-radius: 10px;
+}
+.one-third-width img{
+    height: 60px;
+}
+#food{
+    background-color: thistle;
+}
+#shelter{
+    background-color: peachpuff;
+}
+#medicine{
+    background-color: rgba(240, 230, 140, 0.61);
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-right: 10%;
+}
+.half-width img{
+    width: 800px;
+    height: 700px;
+    border-radius: 10px;
+}
+#point-1{
+    background-color: rgba(95, 158, 160, 0.63);
+}
+#point-2{
+    background-color: rgba(85, 107, 47, 0.363);
+}
+#point-3{
+    background-color: rgba(127, 255, 212, 0.281);
+}
+#email-subscription{
+    text-align: center;
+    background-color: rgba(189, 183, 107, 0.493);
+    padding: 100px;
+    margin-left:400px;
+    margin-right:400px;
+}
+::-webkit-input-placeholder {
+    color: grey;
+    text-align: left;
+}
+#mail{
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+}
+#subscribe{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: -10px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+footer h1{
+    font-family: cursive;
+    font-size: 35px;
+    color: green;
+}
+footer p{
+    font-size: 20px;
+    color: beige;
+    font-family: cursive;
+}
